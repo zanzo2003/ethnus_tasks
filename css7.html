@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS task - 7</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<style>
+    *{
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        padding: 100px;
+        background-color: #C70039;
+    }
+    .content{
+        padding: 100px;
+        background-color: #900C3F;
+    }
+    tr, td{
+        padding: 10px;
+    }
+    input{
+        padding: 3px 10px;
+    }
+    #submit{
+        padding: 10px 150px;
+        font-size: large;
+        font-weight: 900;
+    }
+</style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="content">
+            <form action="">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Name : </td>
+                            <td><input type="text" name="name" id="name" placeholder="Enter your name" size="30"></td>
+                        </tr>
+                        <tr>
+                            <td>Email : </td>
+                            <td><input type="email" name="email" id="email" placeholder="Enter your email" size="30"></td>
+                        </tr>
+                        <tr>
+                            <td>password : </td>
+                            <td><input type="password" name="pass" id="pass" size="30"></td>
+                        </tr>
+                        <tr>
+                            <td>phone no : </td>
+                            <td><input type="tel" name="phone" id="phone" size="30"></td>
+                        </tr>
+                        <tr>
+                            <td>Gender : </td>
+                            <td>Male <input type="radio"> Female <input type="radio"> Other <input type="radio"></td>
+                        </tr>
+                        <tr>
+                            <td>Language :</td>
+                            <td><select name="language" id="dropdown">
+                                <option>Select language</option>
+                                <option>English</option>
+                                <option>Hindi</option>
+                                <option>Kannada</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td>zip code :</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>about :</td>
+                            <td><textarea cols="30" rows="3"></textarea></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <input type="submit" value="Register" id="submit">
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
