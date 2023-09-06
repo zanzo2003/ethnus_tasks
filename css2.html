@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#vertical {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: aqua;
+}
+#liv:nth-child(1){
+    background-color: yellow;
+}
+
+#liv a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+#liv a:hover {
+  background-color: blue;
+  color: white;
+}
+
+#horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+  }
+#lih:nth-child(1){
+    background-color:black;
+}
+  #lih {
+    float: left;
+  }
+  
+  #lih a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #lih a:hover {
+    background-color: #111;
+  }
+</style>
+</head>
+<body>
+
+<h2>Vertical Navigation Bar</h2>
+
+<ul id="vertical">
+  <li id ="liv"><a href="#home">Home</a></li>
+  <li id ="liv"><a href="#news">java</a></li>
+  <li id ="liv"><a href="#contact">css</a></li>
+  <li id ="liv"><a href="#about">html</a></li>
+  <li id ="liv"><a href="#about">bootstrap</a></li>
+</ul>
+
+<h2>Horizontal Navigation Bar</h2>
+
+<ul id="horizontal">
+    <li id="lih"><a class="active" href="#home">Home</a></li>
+    <li id="lih"><a href="#news">News</a></li>
+    <li id="lih"><a href="#contact">Contact</a></li>
+    <li id="lih"><a href="#about">About</a></li>
+  </ul>
+
+</body>
+</html>
