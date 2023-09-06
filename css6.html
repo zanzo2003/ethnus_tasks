@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 6</title>
+    <script src="https://kit.fontawesome.com/80a3084a21.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Poppins', sans-serif;
+        }
+        i{
+            border: 3px solid black;
+            padding: 50px;
+            border-radius: 400px;
+            margin-left: 50px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+        .content{
+            padding: 50px;
+        }
+        .foot{
+            background-color: #D8D9DA;
+            padding: 30px 50px;
+            font-size: 10px;
+        }
+        label{
+            font-weight: bold;
+            text-align: left;
+        }
+        input{
+            padding: 10px;
+            margin: 5px 0 20px 0;
+        }
+        #login{
+            background-color: #7A9D54;
+            border: none;
+            padding: 5px 154px;
+        }
+        #cancel{
+            background-color: #C70039;
+            border: none;
+            padding: 7px;
+            border-radius: 10%;
+            margin: 0 100px 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <i class="fa-regular fa-user fa-10x"></i><br>
+            <label for="username">Username : </label><br>
+            <input type="text" name="username" id="username" placeholder="Enter Username" size="50"><br>
+            <label for="username">Password : </label><br>
+            <input type="password" name="password" id="password" placeholder="Enter password" size="50"><br>
+            <button type="button" id="login">login</button><br>
+            <input type="checkbox"> Remeber me
+            <div class="foot">
+                <button id="cancel">cancel</button>
+                <a href="">Forgot password?</a>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
