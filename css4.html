@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css task - 4</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .container{
+            display: flex;
+        }
+        .navbar{
+            padding:2rem 5rem 2rem 0;
+        }
+        .navbar button{
+            height: 100px;
+            width: 100px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover{
+            height: 110px;
+            width: 110px;
+            background-color: hotpink;
+            cursor: pointer;
+        }
+        .navbar ul{
+            margin: 0;
+        }
+        .content{
+            padding: 2rem 5rem;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <h3 style="padding: 10px;">Navbar</h3>
+            <button type="submit" style="background-color:green"></button><br>
+            <button type="submit" style="background-color: blue;"></button><br>
+            <button type="submit" style="background-color: orange;"></button><br>
+            <button type="submit" style="background-color: #053B50;"></button><br>
+        </div>
+        <div class="content">
+            <h1>Hoverable Sidenavbar buttons</h1>
+            <p>Hover over the buttons on the side navbar to open them</p>
+        </div>
+    </div>
+    
+</body>
+</html>
