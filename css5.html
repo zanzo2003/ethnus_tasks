@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task - 5</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            background-color: yellow;
+            color: purple;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .navbar {
+            position: fixed;
+        }
+
+        button {
+            background-color: white;
+            border-right: 30px solid black;
+            height: 50px;
+            width: 150px;
+            margin: 20px;
+        }
+
+        button:hover {
+            cursor: pointer;
+        }
+
+        .content {
+            position: relative;
+            left: 20rem;
+        }
+
+        #heading {
+            font-weight: 900;
+            font-size: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class='container'>
+        <div class="navbar">
+            <ul style="list-style-type: none;">
+                <li><button type="button">Home page</button></li>
+                <li><button type="button">Musings</button></li>
+                <li><button type="button">My town</button></li>
+                <li><button type="button">Links</button></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1 id="heading">My first styled page</h1>
+            <h3>Welcome to my styled page!</h3>
+            <p>It lacks images but atleast it has style. And it has links even if they dont go anywhere.......</p>
+            <p>There should be more here, but I don't know what yet.</p>
+            <hr>
+            <p><i>Made 5th April</i></p>
+            <p><i>by Myself</i></p>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
